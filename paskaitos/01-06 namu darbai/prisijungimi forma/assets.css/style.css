@@ -1,0 +1,81 @@
+ body{
+    font-family: 'Open Sans', sans-serif;
+    background:#5a2ab3;
+    margin: 0 auto 0 auto;  
+    width:100%; 
+    text-align:center;
+    margin: 20px 0px 20px 0px;   
+  }
+
+  h1{
+    font-size:1.5em;
+    color:#525252;
+  }
+
+
+ .box{
+    background:white;
+    width:300px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:0px 0px 70px 0px;
+    border: #2980b9 4px solid;
+  }
+
+ .text {
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:250px;
+    color:#AAAAAA;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
+  }
+
+  .password {
+     background:#ecf0f1;
+     border: #ccc 1px solid;
+     border-bottom: #ccc 2px solid;
+     padding: 8px;
+     width:250px;
+     color:#AAAAAA;
+     margin-top:10px;
+     font-size:1em;
+     border-radius:4px;
+      
+  }
+
+  .submit{
+    background:#2ecc71;
+    width:125px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    border-radius:4px;
+    border: #27ae60 1px solid;
+    margin-top:12px;
+    margin-bottom:20px;
+    float:left;
+    margin-left:88px;
+    font-weight:800;
+    font-size:0.8em;
+  }
+
+
+    .submit:hover {
+      background:#2CC06B; 
+  }
+
+    .check {
+       font-size: medium;
+       color:#525252;
+      
+   }
+
+   input[type="checkbox" i] {
+       margin-left: 45%;
+       margin-top: 5%;
+   }   
+ 
