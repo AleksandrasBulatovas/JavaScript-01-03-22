@@ -339,7 +339,7 @@ body{
 
 #features {
     background-image: url('../css/img/features.jpg');
-    background-position: fixed;
+    background-attachment: fixed;
     padding-top: 80px;
     padding-bottom: 40px;
     color: #fff;
@@ -357,9 +357,11 @@ body{
 }
 
 #features .heading h2 span {
-    border-bottom: 2px solid color #2da2c8;
+    border-bottom: 2px solid #2da2c8;
+    padding-bottom: 14px;
     display: inline-block;
 }
+
 
 #features .heading h3 {
     font-size: 24px;
@@ -407,4 +409,53 @@ body{
 #features .row {
     display: flex;
     margin-top: 50px;
+}
+
+#stats {
+    background-image: url('../css/img/statistic-banner.jpg');
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+}
+#stats .heading {
+    text-align: center;
+}
+#stats .heading h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#stats .heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+#stats .heading h2 {
+    border-bottom: 2px solid #2da2c8;
+    padding-bottom: 14px;
+}
+#stats .number {
+    font-size: 80px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#stats .text {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#stats .column {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 25%;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
