@@ -10,7 +10,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     margin-top: 0;
     margin-bottom: 10px;
     line-height: 1.1;
@@ -142,12 +142,15 @@ body{
     font-weight: 800;
     color: white;
     margin-bottom: 20px;
+    margin-right: 20px;
 
 }
  #intro .intro-text p {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: white;
+    padding-left: 5px;
+    line-height: 25px;
 }
 
 .intro .intro-right {
@@ -224,7 +227,7 @@ body{
     display: block;
     color: #222;
     font-size: 22px;
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
@@ -252,6 +255,39 @@ body{
     line-height: 28px;
 }
 
+#about1 .about1-right {
+    float: right;
+}
+
+#about1 .about-right {
+    width: 50%;
+}
+#about1 .row {
+    display: flex;
+}
+
+#about1 .tabs ul li a {
+    display: block;
+    color: #222;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-top: 20px;
+    padding-bottom: 10px;   
+}
+
+#about1 .tabs ul {
+    list-style-type: none;
+
+}
+
+#about1 .tabs p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-right: 70px;
+}
 #services {
     padding-top: 80px;
     padding-bottom: 100px;
@@ -299,4 +335,76 @@ body{
 .service-buttons {
     padding-top: 297px;
     margin-left: 391px;
+}
+
+#features {
+    background-image: url('../css/img/features.jpg');
+    background-position: fixed;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #fff;
+    
+}
+
+#features .heading {
+    text-align: center;
+}
+#features .heading h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#features .heading h2 span {
+    border-bottom: 2px solid color #2da2c8;
+    display: inline-block;
+}
+
+#features .heading h3 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.features-text h4 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 110px;
+}
+.features-text p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding: 0 80px 25px 110px;
+}
+#features .icon-box i {
+    color: #2da2c8;
+    margin-top: 10px;
+    font-size: 60px;
+}
+.icon-box {
+    float:left; 
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 70px;
+    padding-left: 20px;
+}
+
+#features .right-side {
+    float: right;
+    width: 50%;
+}
+#features .left-side {
+    float: left;
+    width: 50%;
+}
+#features .row {
+    display: flex;
+    margin-top: 50px;
 }
