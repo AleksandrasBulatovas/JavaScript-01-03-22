@@ -4,6 +4,9 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 h1,
 h2,
 h3,
@@ -466,6 +469,39 @@ body{
     margin-bottom: 80px;
 }
 
+#promo {
+    background-image: url(../css/img/promo-line.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#promo h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+#promo p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+#promo .promo-button {
+    text-align: center;
+}
+#promo .button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+}
 #contact-us {
     background-image: url("../css/img/contacts.jpg") ;
     height: 100vh;
@@ -480,7 +516,7 @@ body{
     font-weight: 500;
     color: #fff;
     text-transform: uppercase;
-    margin-bottom: 84px;
+    margin-bottom: 160px;
     position: relative;
 }
 #contact-us h2::after {
@@ -534,9 +570,72 @@ body{
     margin-top: 17px;
 }
 
+#google-maps iframe {
+    width: 100%;
+    height: 500px;
+    display: block;
+}
+
+#contact-info h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+#contact-info h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+#contact-info h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -19px;
+    transform: translateX(-50%);
+    width: 201px;
+    height: 2px;
+    background: #2da2c8;
+}
+#contact-info .info-box h3 {
+    font-weight: 900;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#contact-info .info-list {
+    display: flex;
+    padding-top: 55px;
+}
+#contact-info {
+    padding: 80px 0 50px;
+}
+#contact-info .info-list .info-box {
+    width: 25%;
+    text-align: center;
+}
+#contact-info .info-box .icon {
+    font-size: 55px;
+}
+#contact-info .info-box .icon .fas {
+    color: #2da2c8;
+}
+#contact-info .info-box p {
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#contact-info .info-box a {
+    color: #2da2c8;
+    font-weight: bold;
+}
 #footer {
     background-color: #262626;
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 60px;
 }
 #footer h3 {
@@ -558,6 +657,7 @@ body{
 }
 #footer .news-row fieldset{
     border: none;
+    display: flex;
 }
 #footer .news-row input {
     width: 74%;
@@ -585,4 +685,21 @@ body{
     font-size: 15px;
     font-weight: 900;
     color: #2da2c8;
+}
+
+.social-info .social-list {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.social-info .social-box a {
+    color: #999
+}
+
+.social-info .social-box .icons {
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    
+  
 }
