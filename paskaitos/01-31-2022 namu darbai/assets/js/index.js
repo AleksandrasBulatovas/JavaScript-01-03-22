@@ -13,7 +13,7 @@ function randomSkaicius(min, max) {
 }
 
 var random = randomSkaicius (0, 10);
-console.log('Random: ', random);
+console.log('Random: ', random); //- consolei ('bla bla: ', tada kintamojo pav); ir gaunu kaip title/pav.
 
 //----Trecia
 var x = randomSkaicius (0, 4)
@@ -22,6 +22,7 @@ console.log('x: ', x)
 console.log('y: ', y)
 
 var rezultatas;
+
 rezultatas = x + y;
 console.log('Sudetis: ', rezultatas);
 
@@ -38,9 +39,12 @@ console.log('Dalyba:  ', rezultatas);
 var a = randomSkaicius (0, 25)
 var b = randomSkaicius (0, 25)
 var c = randomSkaicius (0, 25)
-console.log({a});
+
+console.log({a}); 
 console.log({b});
 console.log({c});
+//-arba
+console.log({a, b, c}) // {} - atvaizduoja kaip objekta tipo zodzius
 
-console.log({a, b, c})
+//- sudedu turimus sk. (siuo atveju abc), tada - minimalu esama - didziausia esama ir = vidurinis sk.
 console.log('Vidurinis skaicius: ', a + b + c - Math.min(a, b, c) - Math.max(a, b, c))
